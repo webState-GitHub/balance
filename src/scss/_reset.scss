@@ -1,0 +1,39 @@
+// Сброс стилей
+
+
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    outline: none !important;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    min-width: 320px;
+    max-width: 100%;
+}
+
+button, input, select{
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+}
